@@ -1,3 +1,13 @@
+@media screen and (min-width: 320px) {
+  .container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 428px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -66,6 +76,26 @@
   }
   .hero {
     height: 436px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/foto-bg/people-bg-tab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/foto-bg/people-bg-tab\(2x\).jpg);
+    }
   }
   .hero-tittle {
     max-width: 496px;
@@ -73,7 +103,16 @@
     font-size: 56px;
     line-height: calc(60 / 56);
   }
+  .order-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .order-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
+
 @media screen and (min-width: 1158px) {
   .header-container {
     justify-content: space-between;
@@ -103,10 +142,50 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/foto-bg/people-bg.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/foto-bg/people-bg\(2x\).jpg);
+    }
   }
   .hero-tittle {
     max-width: 496px;
     margin-bottom: 48px;
+  }
+  .order-item-tittle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  .order-item-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .order-list {
+    padding: 0 16px;
+  }
+  .order-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .order-item-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background: var(--bagr-btn);
   }
 }
