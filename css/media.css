@@ -154,6 +154,18 @@
     width: 408px;
     padding: 72px 24px 24px 24px;
   }
+  .main-portfolio {
+    padding-top: 64px;
+  }
+  .list-buton {
+    margin-bottom: 64px;
+    max-width: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-item {
+    padding: 12px 24px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
