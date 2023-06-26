@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
     <link href="./css/media.css" rel="stylesheet">
     <title>Portfolio</title>
 
@@ -130,11 +130,11 @@
             <div class="container">
                 <h1 class="visually-hidden">Pages</h1>
                 <ul class="list-buton list">
-                    <li class="item-button"><button type="button" class="button-item">All</button></li>
-                    <li class="item-button"><button type="button" class="button-item">Web Site</button></li>
-                    <li class="item-button"><button type="button" class="button-item">App</button></li>
-                    <li class="item-button"><button type="button" class="button-item">Design</button></li>
-                    <li class="item-button"><button type="button" class="button-item">Marketing</button></li>
+                    <li class="item-button"><button class="button-item" type="button">All</button></li>
+                    <li class="item-button"><button class="button-item" type="button">Web Site</button></li>
+                    <li class="item-button"><button class="button-item" type="button">App</button></li>
+                    <li class="item-button"><button class="button-item" type="button">Design</button></li>
+                    <li class="item-button"><button class="button-item" type="button">Marketing</button></li>
                 </ul>
 
                 <!---------------SERVICES------------------------------------------->
@@ -144,15 +144,18 @@
 
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <!-- <img class="portfolio-img" src="./images/bank.jpg" alt="banking payment" width="360"
-                                    height="300"> -->
                                 <picture>
-                                    <source
-                                        srcset="./images/MarkG.jpg 396w, ./images/payment.jpg 300w, ./images/app.jpg 400w"
-                                        sizes="(min-width:1158px) 360px,
-                                        (min-width: 768px) 356px,
-                                        (min-width:320px) 396px">
-                                    <img class="portfolio-img" src="./images/app.jpg">
+                                    <source srcset="./images/portfol/desc/portfol-desc-min.jpg 1x,
+                                                ./images/portfol/desc/portfol-desc.jpg 2x
+                                              " media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-des-min.jpg 1x,
+                                                ./images/portfol/tab/portfol-tab-des.jpg 2x
+                                              " media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-dec-min.jpg 1x,
+                                                ./images/portfol/mob/portf-mob-dec.jpg 2x
+                                              " media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-dec-min.jpg" alt="app" width="396px"
+                                        height="280px">
                                 </picture>
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
@@ -170,8 +173,16 @@
 
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/payment.jpg" alt="cashless" width="360"
-                                    height="300">
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-add-min.jpg 1x,
+                                    ./images/portfol/desc/portfol-add.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-add-min.jpg 1x,
+                                    ./images/portfol/tab/portfol-tab-add.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-add-min.jpg 1x,
+                                    ./images/portfol/mob/portfol-mob-add.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-add-min.jpg" alt="phones marketing"
+                                        width="396px" height="280px">
+                                </picture>
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -188,8 +199,17 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/app.jpg" alt="for app" width="360"
-                                    height="300">
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-lapt-min.jpg 1x,
+                                    ./images/portfol/desc/portfol-lapt.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-lapt-min.jpg 1x,
+                                                                    ./images/portfol/tab/portfol-tab-add.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-lapt-min.jpg 1x,
+                                    ./images/portfol/mob/portfol-mob-lapt.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-lapt-min.jpg" alt="apps" width="396px"
+                                        height="280px">
+                                </picture>
 
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
@@ -208,8 +228,16 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/servic.jpg" alt="service" width="360"
-                                    height="300">
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-taxi-min.jpg 1x,
+                                    ./images/portfol/desc/portfol-taxi.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-tax-min.jpg 1x,
+                                        ./images/portfol/tab/portfol-tab-tax-min.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-taxi-min.jpg 1x,
+                                    ./images/portfol/mob/portfol-mob-taxi.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-taxi-min.jpg" alt="taxi" width="396px"
+                                        height="280px">
+                                </picture>
 
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
@@ -227,8 +255,16 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/screen.jpg" alt="phone" width="360"
-                                    height="300">
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-scr-min.jpg 1x,
+                                    ./images/portfol/desc/portfol-scr.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-scr-min.jpg 1x,
+                                        ./images/portfol/tab/portfol-tab-scr.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-scr-min.jpg 1x,
+                                    ./images/portfol/mob/portfol-mob-scr.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-scr-min.jpg" alt="screen" width="396px"
+                                        height="280px">
+                                </picture>
 
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
@@ -246,8 +282,19 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/courses.jpg" alt="online study" width="360"
-                                    height="300">
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-cors-min.jpg 1x,
+                                                                    ./images/portfol/desc/portfol-cors.jpg 2x"
+                                        media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-cor-min.jpg 1x,
+                                    ./images/portfol/tab/porfol-tab-cor.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-cours-min.jpg 1x,
+                                                                    ./images/portfol/mob/portfol-mob-cours.jpg 2x"
+                                        media="(max-width: 767px)">
+                                    <img src="./images//portfol/mob/portfol-mob-cours-min.jpg" alt="courses"
+                                        width="396px" height="280px">
+                                </picture>
+
 
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
@@ -267,8 +314,16 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/profile.jpg" alt="account" width="360"
-                                    height="300">
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-inst-min.jpg 1x,
+                                        ./images/portfol/desc/portfol-inst-min.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-inst-min.jpg 1x,
+                                    ./images/portfol/tab/portfol-tab-inst-min.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-inst-min.jpg 1x,
+                                        ./images/portfol/mob/portfol-mob-inst-min.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-inst-min.jpg" alt="instagram stories"
+                                        width="396px" height="280px">
+                                </picture>
 
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
@@ -286,9 +341,16 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/healthy.jpg" alt="vegerable" width="360"
-                                    height="300">
-
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-org-min.jpg 1x,
+                                    ./images/portfol/desc/portfol-org.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-org-min.jpg 1x,
+                                    ./images/portfol/tab/portfol-tab-org-min.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/portfol-mob-org-min.jpg 1x,
+                                        ./images/portfol/mob/portfol-mob-org.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/portfol-mob-org-min.jpg" alt="food" width="396px"
+                                        height="280px">
+                                </picture>
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -305,9 +367,16 @@
                     <li class="portfol-list-item">
                         <a class="link-portfolio" href="./portfolio.html">
                             <div class="portfolio-scroll">
-                                <img class="portfolio-img" src="./images/barista.jpg" alt="making coffee" width="360"
-                                    height="300">
-
+                                <picture>
+                                    <source srcset="./images/portfol/desc/portfol-cofe-min.jpg 1x,
+                                    ./images/portfol/desc/portfol-coffe.jpg 2x" media="(min-width: 1158px)">
+                                    <source srcset="./images/portfol/tab/portfol-tab-coffe-min.jpg 1x,
+                                    ./images/portfol/tab/portfol-tab-coffe.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfol/mob/porffol-mob-coffe-min.jpg 1x,
+                                    ./images/portfol/mob/porffol-mob-coffe-min.jpg 2x" media="(max-width: 767px)">
+                                    <img src="./images/portfol/mob/porffol-mob-coffe-min.jpg" alt="barista"
+                                        width="396px" height="280px">
+                                </picture>
                                 <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -342,7 +411,7 @@
                 <p class="footer-soc-text">Social media</p>
                 <ul class="footer-soc-list">
                     <li class="footer-list-icon">
-                        <a class="footer-item-icons" href="" aria-label="instagram" target="_blank"
+                        <a class="footer-item-icons" href aria-label="instagram" target="_blank"
                             rel="noopener noreferrer">
                             <svg class="team-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -350,7 +419,7 @@
                         </a>
                     </li>
                     <li class="footer-list-icon">
-                        <a class="footer-item-icons" href="" aria-label="twitter" target="_blank"
+                        <a class="footer-item-icons" href aria-label="twitter" target="_blank"
                             rel="noopener noreferrer">
                             <svg class="team-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-twitter-1"></use>
@@ -358,7 +427,7 @@
                         </a>
                     </li>
                     <li class="footer-list-icon">
-                        <a class="footer-item-icons" href="" aria-label="facebook" target="_blank"
+                        <a class="footer-item-icons" href aria-label="facebook" target="_blank"
                             rel="noopener noreferrer">
                             <svg class="team-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -366,7 +435,7 @@
                         </a>
                     </li>
                     <li class="footer-list-icon">
-                        <a class="footer-item-icons" href="" aria-label="lincedin" target="_blank"
+                        <a class="footer-item-icons" href aria-label="lincedin" target="_blank"
                             rel="noopener noreferrer">
                             <svg class="team-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -379,7 +448,7 @@
                 <p class="form-text">Subscribe</p>
                 <form class="footer-form-email">
                     <label class="footer-label">
-                        <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+                        <input class="footer-input" name="email" type="email" placeholder="E-mail">
                     </label>
 
                     <button class="footer-form-btn" type="submit">Subscribe
