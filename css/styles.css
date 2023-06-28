@@ -890,10 +890,10 @@ input {
   flex-direction: column;
 }
 .form-tittle {
-  margin-bottom: 16px;
+  margin-bottom: 13px;
   color: var(--brand-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -969,7 +969,7 @@ input {
 
 .checkbox-label {
   color: var(--fill-icon);
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
