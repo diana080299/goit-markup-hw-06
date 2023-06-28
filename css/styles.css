@@ -657,7 +657,8 @@ input {
 .footer-label {
 }
 .footer-input {
-  width: 264px;
+  width: 100%;
+  width: 398px;
   height: 40px;
   padding-left: 16px;
   border: 1px solid var(--foc-hov-text);
