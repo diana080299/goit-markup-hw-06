@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     max-width: 100%;
     margin: 0 auto;
   }
@@ -18,12 +18,20 @@
   .container {
     width: 1158px;
     max-width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .header-container {
+    width: 768px;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
   .header {
     padding: 0;
   }
@@ -127,6 +135,9 @@
     justify-content: center;
     gap: 64px 24px;
   }
+  .container-customers {
+    width: 584px;
+  }
   .customers-list-icons {
     gap: 72px 24px;
   }
@@ -137,6 +148,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 72px 24px;
+    width: 584px;
   }
 
   .footer-logo {
@@ -189,20 +201,26 @@
 
   @media screen and (min-width: 1158px) {
     .header-container {
-      justify-content: space-between;
-      align-items: center;
+      width: 1158px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .header-logo {
+      margin-right: 76px;
+    }
+
+    .header-menu-link {
+      padding: 24px 0;
     }
 
     .header-soc {
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-items: center;
-      margin-right: 0 auto;
       gap: 40px;
+      flex-direction: row;
+      margin-left: 0 auto;
     }
     .header-soc-link {
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       color: var(--text-color);
       font-size: 16px;
@@ -315,6 +333,9 @@
     .team-item-icons:focus {
       background-color: var(--change-color);
     }
+    .container-customers {
+      width: 100%;
+    }
     .customers {
       padding: 120px 0;
     }
@@ -337,6 +358,7 @@
       display: flex;
       flex-wrap: nowrap;
       align-items: baseline;
+      width: 100%;
     }
 
     .footer-soc {
